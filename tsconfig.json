@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "declaration": true,
-        "module": "commonjs",
+        "module": "amd",
         "moduleResolution": "node",
         "noImplicitAny": true,
         "alwaysStrict": true,
@@ -10,6 +10,7 @@
         "noImplicitThis": true,
         "target": "es2018",
         "outDir": "lib",
+        "outFile": "lib/index.js"
         "preserveConstEnums": true,
         "lib": [
             "es2018",
